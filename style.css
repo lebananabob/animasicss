@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color:black;
+    height: 800px;
+    width: 100%;
+}
+.container div{
+    position:absolute;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+.container div:nth-child(1){
+    top: 0%;
+    left: 5%;
+    animation: animasi 10s infinite linear;
+}
+.container div:nth-child(2){
+    top: 0%;
+    left: 10%;
+    animation: animasi 9s infinite linear;
+}
+.container div:nth-child(3){
+    top: 0%;
+    left: 20%;
+    animation: animasi 8s infinite linear;
+}
+.container div:nth-child(4){
+    top: 0%;
+    left: 30%;
+    animation: animasi 7s infinite linear;
+}
+.container div:nth-child(5){
+    top: 0%;
+    left: 40%;
+    animation: animasi 6s infinite linear;
+}
+.container div:nth-child(6){
+    top: 0%;
+    left: 50%;
+    animation: animasi 5s infinite linear;
+}
+.container div:nth-child(7){
+    top: 0%;
+    left: 60%;
+    animation: animasi 4s infinite linear;
+}
+.container div:nth-child(8){
+    top: 0%;
+    left: 70%;
+    animation: animasi 3s infinite linear;
+}
+.container div:nth-child(9){
+    top: 0%;
+    left: 80%;
+    animation: animasi 2s infinite linear;
+}
+.container div:nth-child(10){
+    top: 0%;
+    left: 90%;
+    animation: animasi 1s infinite linear;
+}
+@keyframes animasi{
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(800px) rotate(360deg)
+    }
+    100%{
+        transform: translateY(800px) rotate(360deg)
+    }
+}
