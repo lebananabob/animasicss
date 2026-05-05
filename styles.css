@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+.container{
+    background-image: url(https://www.shutterstock.com/shutterstock/videos/1356427/thumb/1.jpg?ip=x480);
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    background-size: auto;
+}
+.container div{
+    position: absolute;
+    height: 5px;
+    width: 2px;
+    border-radius: 10px 20px 30px 45px;
+    background-color: rgb(223, 151, 57);
+    opacity: 60%;
+    box-shadow: 0px 0px 10px 10px rgb(223, 151, 57);
+}
+.container div:nth-child(1){
+    left: 0%;
+    animation: lohen 5s infinite;
+}
+.container div:nth-child(2){
+    left: 5%;
+    animation: lohen 25s infinite;
+}
+.container div:nth-child(3){
+    left: 15%;
+    animation: lohen 15s infinite;
+}
+.container div:nth-child(4){
+    left: 25%;
+    animation: lohen 35s infinite;
+}
+.container div:nth-child(5){
+    left: 30%;
+    animation: lohen 5s infinite;
+}
+.container div:nth-child(6){
+    left: 40%;
+    animation: lohen 10s infinite;
+}
+.container div:nth-child(7){
+    left: 50%;
+    animation: lohen 20s infinite;
+}
+.container div:nth-child(8){
+    left: 85%;
+    animation: lohen 8s infinite;
+}
+.container div:nth-child(9){
+    left: 70%;
+    animation: lohen 30s infinite;
+}
+.container div:nth-child(10){
+    left: 80%;
+    animation: lohen 15s infinite;
+}
+.container div:nth-child(11){
+    left: 90%;
+    animation: lohen 5s infinite;
+}
+.container div:nth-child(12){
+    left: 95%;
+    animation: lohen 15s infinite;
+}
+@keyframes lohen {
+    0%{
+        transform: translateY(550px) rotate(0deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(90deg);  
+    }
+}
